@@ -1,0 +1,30 @@
+
+
+
+#signup-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+#signup-container form{
+    /* width:10; */
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.inputs{
+    width: 25vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

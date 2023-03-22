@@ -27,8 +27,8 @@ console.log(myPath);
 server.use(express.static(myPath));
 
 
-server.get("", (req, res) => {
-  const data = loadFile();
+server.get("/login", (req, res) => {
+  const data = utils.loadFile();
   res.send(data);
   saveUsers(data);
 });
@@ -56,27 +56,6 @@ server.post('',(req, res)=>{
 })
 
 // const port = process.env.PORT || 3000;
-server.listen(3000, () => {
-  console.log(`listening on `,3000);
+server.listen(4005, () => {
+  console.log(`listening on `,4005);
 });
-
-// const saveUsers = function (notes) {
-//   const dataJSON = JSON.stringify(notes);
-//   fs.writeFileSync("users.json", dataJSON);
-// };
-
-// function loadFile() {
-
-//     try {
-//         const dataBuffer = fs.readFileSync("users.json");
-//         const dataJSON = dataBuffer.toString();
-//         return JSON.parse(dataJSON);
-        
-//     } catch (error) {
-        
-//         return [];
-//     }
-
-
- 
-// }

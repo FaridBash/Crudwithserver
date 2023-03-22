@@ -1,7 +1,6 @@
 {
   "name": "tut",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,14 @@
   },
   "devDependencies": {
     "uniqueid": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaridBash/Crudwithserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FaridBash/Crudwithserver/issues"
+  },
+  "homepage": "https://github.com/FaridBash/Crudwithserver#readme",
+  "description": ""
 }
